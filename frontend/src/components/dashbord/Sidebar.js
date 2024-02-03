@@ -2,7 +2,7 @@ import { styled } from "@mui/system";
 import CreateRoomButton from "./dashbordComponents/CreateRoomButton";
 const MainContainer = styled("div")({
   width: "72px",
-  height: "94vh",
+  height: "calc(100vh - 48px)",
   marginTop: "48px",
   borderRight: "1.5px solid #4892f6",
   display: "flex",

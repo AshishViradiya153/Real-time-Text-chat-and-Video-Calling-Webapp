@@ -48,7 +48,7 @@ export const acceptFriendInvitation = createAsyncThunk(
 );
 
 export const rejectFriendInvitation = createAsyncThunk(
-  "friend/acceptFriendInvitation",
+  "friend/rejectFriendInvitation",
   async (id, thunkAPI) => {
     try {
       const { data } = await customFetch.post("/friend-invitaion/reject", {

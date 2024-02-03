@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ScreenShareIcon from "@mui/icons-material/ScreenShare";
 import StopScreenShareIcon from "@mui/icons-material/StopScreenShare";
 import { IconButton, Tooltip } from "@mui/material";

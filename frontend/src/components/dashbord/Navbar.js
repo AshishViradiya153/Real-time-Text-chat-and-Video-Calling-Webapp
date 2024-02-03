@@ -12,7 +12,7 @@ const MainContainer = styled("div")({
   display: "flex",
   alignItems: "center",
   justifyContent: "space-between",
-  padding: "0 15px",
+  // padding: "0 15px",
 });
 const Navbar = () => {
   return (

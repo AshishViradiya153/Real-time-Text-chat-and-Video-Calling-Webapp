@@ -7,7 +7,7 @@ const MainContainer = styled("div")({
   width: "224px",
   borderRight: "1.5px solid #4892f6",
   //   borderRight: "1.5px solid black",
-  height: "94vh",
+  height: "calc(100vh - 48px)",
   marginTop: "48px",
   display: "flex",
   flexDirection: "column",

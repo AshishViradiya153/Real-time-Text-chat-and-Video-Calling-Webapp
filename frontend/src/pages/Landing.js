@@ -67,10 +67,10 @@ const landing = () => {
       <Container>
         <div style={{ width: "700px" }}>
           <h1>
-            Real-time online
+            Real-time online{" "}
             <span style={{ color: "#3b82f6", fontWeight: 700 }}>
               video calls with chat
-            </span>
+            </span>{" "}
             App
           </h1>
           <Text>

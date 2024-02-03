@@ -5,7 +5,9 @@ const ChoosenOptionalLabel = () => {
   const { chosenChatDetails } = useSelector((store) => store.chat);
   return (
     <>
-      <Typography sx={{ fontSize: "16px", fontWeight: "600" }}>
+      <Typography
+        sx={{ fontSize: "16px", fontWeight: "600", marginLeft: "20px" }}
+      >
         {chosenChatDetails?.name
           ? `Chat conversation with : ${chosenChatDetails?.name} :`
           : "DASHBOARD"}

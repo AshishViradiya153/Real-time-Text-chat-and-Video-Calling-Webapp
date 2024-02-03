@@ -21,7 +21,7 @@ const chatSlice = createSlice({
       state.messages = payload;
     },
   },
-  extraReducers: {},
+  // extraReducers: {},
 });
 
 export const { setChoosenChatDetails, setMessages } = chatSlice.actions;
